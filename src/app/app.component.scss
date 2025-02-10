@@ -1,0 +1,25 @@
+/* Ensures the entire page takes up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Main container using flexbox layout */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Content section that grows to take available space */
+  .content {
+    flex: 1;
+  }
+  
+  /* Footer styling */
+  app-footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  

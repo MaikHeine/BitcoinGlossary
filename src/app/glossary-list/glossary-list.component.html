@@ -1,0 +1,14 @@
+<div class="glossary-list-page">
+  <!-- Header -->
+  <h3>Glossary</h3>
+
+  <div class="term-list">
+  <mat-list>
+    <mat-list-item *ngFor="let term of terms" (click)="navigateToDetail(term.id)">
+      <h3 matLine>{{ term.term }}</h3>
+      <p matLine>{{ term.description }}</p>
+    </mat-list-item>
+  </mat-list>
+  </div>
+</div>
+  

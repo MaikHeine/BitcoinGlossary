@@ -1,0 +1,66 @@
+<div class="home-page">
+  <!-- Header -->
+  <h3>Home</h3>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <mat-card class="hero-card">
+      <mat-card-header>
+        <mat-card-title>Welcome to the Bitcoin Glossary</mat-card-title>
+        <mat-card-subtitle>Your ultimate guide to Bitcoin terminology</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          This website provides a comprehensive glossary of terms and concepts
+          related to Bitcoin and blockchain technology. Whether you're new to
+          Bitcoin or an experienced user, you'll find valuable information to
+          deepen your understanding.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" class="to-glossary-button" (click)="navigateToGlossaryList()">
+          To the Glossary List
+          <mat-icon>arrow_forward</mat-icon>
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+  <!-- Features Section -->
+  <div class="features">
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <mat-card-title>Learn Bitcoin Basics</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Explore fundamental terms like "Blockchain," "Wallet," and "Mining."</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary">Explore Basics</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <mat-card-title>Advanced Topics</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Dive into advanced concepts such as "SegWit," "Lightning Network," and "Forks."</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="accent">Explore Advanced Topics</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <mat-card-title>Bitcoin News</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Stay updated with the latest news and developments in the Bitcoin ecosystem.</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="warn">View News</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

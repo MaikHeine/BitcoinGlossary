@@ -1,0 +1,16 @@
+
+<div class="glossary-detail-page">
+  <h3>Glossary Detail</h3>
+
+  <mat-list *ngIf="term">
+      <mat-list-item>
+        <h3 matLine>{{ term.term }}</h3>
+        <p matLine>{{ term.explanation }}</p>
+      </mat-list-item>
+      <button mat-raised-button color="primary" class="to-glossary-button" (click)="goBack()">
+        Back to the Glossary List
+        <mat-icon>arrow_backwards</mat-icon>
+      </button>
+    </mat-list>
+</div>
+  
